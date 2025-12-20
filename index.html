@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loading...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrap">
+            <a href="#" class="brand" id="nav-dev-name">Developer</a>
+            <nav>
+                <a href="#game" id="nav-game-title">Game</a>
+                <a href="#media">Media</a>
+                <a href="#developer">Developer</a>
+                <a href="#downloads">Downloads</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="hero">
+            <div class="hero-content">
+                <h1 id="hero-title"></h1>
+                <p id="hero-pitch"></p>
+                <div id="hero-cta"></div>
+            </div>
+            <div class="hero-image" id="hero-image"></div>
+        </section>
+
+        <section id="game">
+            <div class="game-grid">
+                <div class="game-info">
+                    <h2>About</h2>
+                    <div id="steam-widget"></div>
+                    <div id="custom-description">
+                        <!-- Users can manually add text here in HTML if they want more detail -->
+                        <p>SCOPECREEP is a psychological horror incremental experience where every click draws you deeper into the flame.</p>
+                    </div>
+                </div>
+                <div class="game-facts">
+                    <h2>Fact sheet</h2>
+                    <div id="facts-list"></div>
+                </div>
+            </div>
+
+            <div id="trailer-container">
+                <h2>Trailer</h2>
+                <div class="video-wrapper" id="trailer-embed"></div>
+            </div>
+        </section>
+
+        <section id="media">
+            <h2>Screenshots</h2>
+            <div class="grid gallery" id="screenshots-grid"></div>
+            <h2>Logos</h2>
+            <div class="grid gallery logos" id="logos-grid"></div>
+        </section>
+
+        <section id="developer">
+            <div class="dev-card">
+                <div id="dev-logo"></div>
+                <div>
+                    <h2 id="dev-name"></h2>
+                    <ul id="dev-contact" class="link-list"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="downloads">
+            <h2>Downloads</h2>
+            <ul id="downloads-list" class="link-list"></ul>
+        </section>
+    </main>
+
+    <footer class="wrap">
+        <span id="footer-copy"></span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

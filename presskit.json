@@ -1,0 +1,44 @@
+{
+  "game": {
+    "title": "SCOPECREEP",
+    "pitch": "A whispering flame craves souls. With each offering, your resolve strengthens. Fight spirits, collect their essences, and feed a hunger that may never subside in this short eerie incremental game.",
+    "storepage": "https://store.steampowered.com/app/3595710/",
+    "storewidget": "https://store.steampowered.com/widget/3595710/",
+    "trailer": "https://www.youtube.com/watch?v=1ST-zEJHEJQ"
+  },
+  "developer": {
+    "name": "Foolbox Studio",
+    "contact": {
+      "Discord": "https://discord.gg/BjjSAnxN6B",
+      "Twitch": "https://www.twitch.tv/foolbox",
+      "YouTube": "https://www.youtube.com/@foolboxstudio",
+      "Twitter": "https://twitter.com/FoolboxStudio",
+      "Bluesky": "https://bsky.app/profile/foolbox.bsky.social"
+    }
+  },
+  "facts": {
+    "Release Date": "Q2 2026",
+    "Genre": "Incremental, Casual, Simulation",
+    "Modes": "Singleplayer",
+    "Platforms": "Windows"
+  },
+  "media": {
+    "capsule": "assets/capsule.jpg",
+    "screenshots": [
+      "assets/screenshot1.png",
+      "assets/screenshot2.png",
+      "assets/screenshot3.png",
+      "assets/screenshot4.png",
+      "assets/screenshot5.png"
+    ],
+    "logos": [
+      "assets/logo1.png",
+      "assets/logo2.png",
+      "assets/logo3.png",
+      "assets/logo4.png"
+    ]
+  },
+  "downloads": {
+    "presskit": "assets/presskit.zip"
+  }
+}
