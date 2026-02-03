@@ -25,8 +25,6 @@ Once you’ve customized your press kit, follow these steps to make it public:
 7. GitHub will provide a URL (usually `https://username.github.io/repository-name/`). It may take a minute or two for the page to go live.
 
 ## License
-Distributed under the [MIT License](https://github.com/SweetSweetGwendoline/scopecreep/blob/main/LICENSE.md). See LICENSE for more information.
+Distributed under the [MIT License](https://github.com/SweetSweetGwendoline/scopecreep/blob/main/LICENSE.md).
 
 Created with ❤️ by [SweetSweetGwendoline](https://github.com/sweetsweetgwendoline)
-
-
