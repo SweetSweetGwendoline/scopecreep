@@ -32,11 +32,11 @@ body {
     z-index: 100;
 }
 
-    .header .wrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.header .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 nav a {
     color: var(--text-color);
@@ -48,10 +48,10 @@ nav a {
     transition: 0.2s;
 }
 
-    nav a:hover {
-        opacity: 1;
-        color: var(--accent-color);
-    }
+nav a:hover {
+    opacity: 1;
+    color: var(--accent-color);
+}
 
 .brand {
     font-weight: bold;
@@ -68,17 +68,17 @@ nav a {
     align-items: center;
 }
 
-    #hero h1 {
-        font-size: 3.5rem;
-        margin: 0 0 20px 0;
-        letter-spacing: -1px;
-    }
+#hero h1 {
+    font-size: 3.5rem;
+    margin: 0 0 20px 0;
+    letter-spacing: -1px;
+}
 
-    #hero p {
-        font-size: 1.2rem;
-        opacity: 0.8;
-        margin-bottom: 30px;
-    }
+#hero p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
 
 .btn {
     display: inline-block;
@@ -91,10 +91,10 @@ nav a {
     transition: 0.2s;
 }
 
-    .btn:hover {
-        background: var(--accent-color);
-        color: white;
-    }
+.btn:hover {
+    background: var(--accent-color);
+    color: white;
+}
 
 .hero-image img {
     width: 100%;
@@ -116,12 +116,12 @@ nav a {
     padding-bottom: 5px;
 }
 
-    .fact-item strong {
-        display: block;
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        opacity: 0.5;
-    }
+.fact-item strong {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
 
 #steam-widget {
     margin: 20px 0;
@@ -144,9 +144,9 @@ nav a {
     transition: 0.3s;
 }
 
-    .gallery img:hover {
-        border-color: var(--accent-color);
-    }
+.gallery img:hover {
+    border-color: var(--accent-color);
+}
 
 .logos img {
     object-fit: contain;
@@ -164,14 +164,14 @@ nav a {
     margin-bottom: 60px;
 }
 
-    .video-wrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-    }
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
 
 /* Lists */
 .link-list {
@@ -179,18 +179,61 @@ nav a {
     padding: 0;
 }
 
-    .link-list li {
-        margin-bottom: 10px;
-    }
+.link-list li {
+    margin-bottom: 10px;
+}
 
-    .link-list a {
-        color: var(--accent-color);
-        text-decoration: none;
-    }
+.link-list a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
 
-        .link-list a:hover {
-            text-decoration: underline;
-        }
+.link-list a:hover {
+    text-decoration: underline;
+}
+
+/* Social Buttons */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background: var(--accent-color);
+    color: #000;
+    border-color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
+/* Specific alignment for the dev section */
+.dev-card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
 
 /* Footer */
 footer {
@@ -210,7 +253,4 @@ footer {
         text-align: center;
         padding: 40px 0;
     }
-
 }
-
-
