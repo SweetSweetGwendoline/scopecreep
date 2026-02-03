@@ -53,27 +53,8 @@ async function loadPresskit() {
         // Developer Section
         document.getElementById('dev-name').textContent = data.developer.name;
         const contactList = document.getElementById('dev-contact');
-        contactList.className = "social-links"; // Apply the new class
-        
-        // Icon Mapping
-        const iconMap = {
-            "Discord": "fa-brands fa-discord",
-            "Twitter": "fa-brands fa-x-twitter",
-            "Twitch": "fa-brands fa-twitch",
-            "YouTube": "fa-brands fa-youtube",
-            "Bluesky": "fa-brands fa-bluesky",
-            "Steam": "fa-brands fa-steam",
-            "Default": "fa-solid fa-link"
-        };
-        
         for (const [platform, url] of Object.entries(data.developer.contact)) {
-            const iconClass = iconMap[platform] || iconMap["Default"];
-            contactList.innerHTML += `
-                <li>
-                    <a href="${url}" target="_blank" class="social-btn" title="${platform}">
-                        <i class="${iconClass}"></i>
-                    </a>
-                </li>`;
+            contactList.innerHTML += `<li><a href="${url}" target="_blank">${platform}</a></li>`;
         }
 
         // Downloads Section
@@ -90,6 +71,5 @@ async function loadPresskit() {
 
 
 window.addEventListener('DOMContentLoaded', loadPresskit);
-
 
 
